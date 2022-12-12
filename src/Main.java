@@ -17,6 +17,13 @@ public class Main {
         System.out.println("Минимальная сумма трат за день составила " + arr[0] + " рублей. Максимальная сумма трат за день составила " + arr[29] + " рублей.");
 
         System.out.println("________________________");
+
+        System.out.println("Третья задача");
+
+        double sumMedium = sumMonthly/30;
+        System.out.println("Средняя сумма трат за месяц составила "+sumMedium+" рублей");
+
+        System.out.println("________________________");
     }
 
     public static int[] generateRandomArray() {
