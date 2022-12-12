@@ -24,7 +24,14 @@ public class Main {
         System.out.println("Средняя сумма трат за месяц составила "+sumMedium+" рублей");
 
         System.out.println("________________________");
-    }
+
+        System.out.println("Четвертая задача");
+
+        char name[] = " чивонавИ навИ вонавИ".toCharArray();
+        for (int i = name.length-1; i >0; i--) {
+            System.out.print(name[i]);
+        }
+       }
 
     public static int[] generateRandomArray() {
 
@@ -38,7 +45,6 @@ public class Main {
         } return arr;
     }
 }
-
 
 /**
  *
